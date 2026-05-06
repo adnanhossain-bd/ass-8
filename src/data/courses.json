@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "Dr. Angela Yu",
+    "duration": "45 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1777975266/download_2_wtahk5.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Mastering Graphic Design with Photoshop",
+    "instructor": "Daniel Walter Scott",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Learn the essentials of Photoshop and create stunning visual designs for social media, print, and web.",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1777975266/download_xpvitm.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Masterclass",
+    "instructor": "Phil Ebiner",
+    "duration": "32 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Comprehensive guide to social media marketing, SEO, Google Ads, and Facebook Ads to grow your business.",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1777975266/download_1_wlgppn.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "title": "Advanced Next.js & React Patterns",
+    "instructor": "Maximilian Schwarzmüller",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Build high-performance web applications using the latest Next.js 15+ features, App Router, and server actions.",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1774677396/20191209online_btrpid.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Professional UI/UX Design Principles",
+    "instructor": "Gary Simon",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Master the art of creating user-friendly interfaces and experiences using Figma and modern design tools.",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1774677397/learning-education-ideas-insight-intelligence-study-concept_53876-120116_ttwxyz.avif",
+    "category": "Design"
+  },
+  {
+    "id": 6,
+    "title": "Content Writing & SEO Strategy",
+    "instructor": "Brian Dean",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn how to write engaging content that ranks on the first page of Google and converts visitors into customers.",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1777698083/DSC08323_szwre9.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 7,
+    "title": "Full-Stack JavaScript Developer",
+    "instructor": "Colt Steele",
+    "duration": "60 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master the MERN stack (MongoDB, Express, React, Node.js) and build real-world applications from scratch.",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1773293446/andrew-neel-cckf4TsHAuw-unsplash_1_xjhbfc.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 8,
+    "title": "Social Media Management for Success",
+    "instructor": "Neil Patel",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Build a massive following on Instagram, TikTok, and LinkedIn with proven social media growth strategies.",
+    "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1773293471/thought-catalog-505eectW54k-unsplash_1_e9voce.jpg",
+    "category": "Marketing"
+  }
+]

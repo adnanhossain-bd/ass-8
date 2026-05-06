@@ -3,6 +3,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 // ধরুন আপনার JSON ফাইলটি এখানে আছে
 import coursesData from "@/data/courses.json";
+import { FaGraduationCap } from "react-icons/fa";
 
 const PopularCourses = () => {
   // রেটিং অনুযায়ী সর্ট করে টপ ৩টি কোর্স নেওয়া
@@ -16,9 +17,10 @@ const PopularCourses = () => {
         
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-heading mb-4">
-            Our <span className="text-primary">Popular</span> Courses 🔥
-          </h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-heading mb-4 flex items-center gap-2">
+  Our <span className="text-primary">Popular</span> Courses 
+  <FaGraduationCap className="text-primary animate-bounce" />
+</h2>
           <p className="text-body max-w-2xl mx-auto text-lg">
             Pick from our top-rated programs and join thousands of students 
             learning and growing with SkillSphere.

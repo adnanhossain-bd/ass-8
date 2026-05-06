@@ -5,7 +5,7 @@ import Link from "next/link";
 import { signIn } from "@/lib/auth-client";
 import toast from "react-hot-toast";
 import { FaEnvelope, FaLock } from "react-icons/fa";
-import { FcGoogle } from "react-icons/fc"; // 🔴 Google Icon
+import { FcGoogle } from "react-icons/fc"; 
 import { motion } from "framer-motion";
 
 const LoginForm = () => {
@@ -37,7 +37,7 @@ const LoginForm = () => {
         toast.error(error.message || "Invalid email or password!");
       } else {
         toast.success("Welcome back!");
-        router.push(callbackUrl); // লগইন সফল হলে আগের পেজে বা হোমে যাবে
+        router.push(callbackUrl); 
         router.refresh(); 
       }
     } catch (err) {
@@ -92,7 +92,7 @@ const LoginForm = () => {
         </button>
 
         <p className="text-center text-body text-sm mt-6">
-          Do not have an account?{" "}
+          Don't have an account?{" "}
           <Link href="/register" className="text-primary font-bold hover:underline">Sign up</Link>
         </p>
       </motion.div>

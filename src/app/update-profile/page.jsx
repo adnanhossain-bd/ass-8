@@ -102,7 +102,7 @@ const UpdateProfilePage = () => {
             </div>
           </div>
 
-          {/* 🔴 Image URL Input */}
+
           <div>
             <label className="block text-sm font-semibold text-heading mb-2 ml-1">Profile Photo URL</label>
             <div className="relative">
@@ -121,7 +121,7 @@ const UpdateProfilePage = () => {
             <p className="text-xs text-gray-400 mt-2 ml-1">Leave empty if you don't want to change.</p>
           </div>
 
-          {/* Submit Button */}
+        
           <button 
             type="submit" 
             disabled={loading}

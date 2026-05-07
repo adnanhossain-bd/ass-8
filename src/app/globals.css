@@ -2,7 +2,7 @@
 @plugin "daisyui";
 
 @theme {
-  /* আপনার ব্র্যান্ড কালারগুলো */
+ 
   --color-primary: #2563EB;
   --color-secondary: #7C3AED;
   --color-accent: #F59E0B;
@@ -10,11 +10,11 @@
   --color-heading: #1E293B;
   --color-body: #64748B;
 
-  /* গ্রেডিয়েন্ট ভেরিয়েবল */
+  
   --background-image-brand-gradient: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
   --background-image-surface-gradient: linear-gradient(180deg, #ffffff 0%, #f8fafc 60%, #f1f5f9 100%);
   
-  /* অ্যানিমেশন */
+ 
   --animate-spin-slow: spin 8s linear infinite;
 }
 

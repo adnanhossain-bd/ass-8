@@ -122,13 +122,13 @@ const Footer = () => {
           </p>
           <div className="flex gap-8 text-xs font-semibold text-slate-400">
             <Link
-              href="/privacy"
+              href="/privacy-policy"
               className="hover:text-primary transition-colors"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/terms"
+              href="/terms-conditions"
               className="hover:text-primary transition-colors"
             >
               Terms of Service

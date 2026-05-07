@@ -5,7 +5,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'res.cloudinary.com',
-        pathname: '/**', // এটি সব ইমেজ পাথ এলাউ করবে
+        pathname: '/**', 
       },
       {
         protocol: 'https',

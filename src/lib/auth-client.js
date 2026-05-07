@@ -4,5 +4,5 @@ export const authClient = createAuthClient({
     baseURL: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
 });
 
-// এখানে signOut অবশ্যই থাকতে হবে
+
 export const { signIn, signUp, signOut, useSession } = authClient;

@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
-// ধরুন আপনার JSON ফাইলটি এখানে আছে
+
 import coursesData from "@/data/courses.json";
 import { FaGraduationCap } from "react-icons/fa";
+import { Star } from "lucide-react";
 
 const PopularCourses = () => {
-  // রেটিং অনুযায়ী সর্ট করে টপ ৩টি কোর্স নেওয়া
+  
   const popularCourses = [...coursesData]
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 3);
@@ -14,15 +15,14 @@ const PopularCourses = () => {
   return (
     <section className="py-20 px-4 md:px-8 lg:px-12 bg-surface-gradient">
       <div className="container mx-auto">
-        
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-heading mb-4 flex items-center gap-2">
-  Our <span className="text-primary">Popular</span> Courses 
-  <FaGraduationCap className="text-primary animate-bounce" />
-</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-heading mb-4  gap-2">
+            Our <span className="text-primary">Popular</span> Courses
+           
+          </h2>
           <p className="text-body max-w-2xl mx-auto text-lg">
-            Pick from our top-rated programs and join thousands of students 
+            Pick from our top-rated programs and join thousands of students
             learning and growing with SkillSphere.
           </p>
         </div>
@@ -40,9 +40,9 @@ const PopularCourses = () => {
             >
               {/* Image Section */}
               <div className="relative overflow-hidden aspect-video">
-                <img 
-                  src={course.image} 
-                  alt={course.title} 
+                <img
+                  src={course.image}
+                  alt={course.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary">
@@ -57,7 +57,9 @@ const PopularCourses = () => {
                     {course.level}
                   </span>
                   <div className="flex items-center gap-1 text-accent font-bold">
-                    <span>⭐</span>
+                    <span>
+                      <Star></Star>
+                    </span>
                     <span>{course.rating}</span>
                   </div>
                 </div>
@@ -65,14 +67,19 @@ const PopularCourses = () => {
                 <h3 className="text-xl font-bold text-heading mb-2 line-clamp-1 group-hover:text-primary transition-colors">
                   {course.title}
                 </h3>
-                
+
                 <p className="text-body text-sm mb-4">
-                  By <span className="font-medium text-heading">{course.instructor}</span>
+                  By{" "}
+                  <span className="font-medium text-heading">
+                    {course.instructor}
+                  </span>
                 </p>
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-50">
-                  <span className="text-primary font-bold">{course.duration}</span>
-                  <Link 
+                  <span className="text-primary font-bold">
+                    {course.duration}
+                  </span>
+                  <Link
                     href={`/courses/${course.id}`}
                     className="btn btn-sm bg-brand-gradient text-white border-none rounded-lg px-4 hover:opacity-90"
                   >
@@ -86,12 +93,14 @@ const PopularCourses = () => {
 
         {/* View All Button */}
         <div className="mt-12 text-center">
-          <Link href="/courses" className="text-primary font-semibold hover:underline flex items-center justify-center gap-2">
-            See All Courses 
+          <Link
+            href="/courses"
+            className="text-primary font-semibold hover:underline flex items-center justify-center gap-2"
+          >
+            See All Courses
             <span>→</span>
           </Link>
         </div>
-
       </div>
     </section>
   );

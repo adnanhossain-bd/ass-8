@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Complete Web Development Bootcamp",
+    "title": "Complete Marketing & Business Strategy",
     "instructor": "Dr. Angela Yu",
     "duration": "45 hours",
     "rating": 4.9,
     "level": "Beginner",
-    "description": "Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!",
+    "description": "Become a marketing expert with this comprehensive course on business strategy and digital marketing.",
     "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1777975266/download_2_wtahk5.jpg",
     "category": "Development"
   },
@@ -45,12 +45,12 @@
   },
   {
     "id": 5,
-    "title": "Professional UI/UX Design Principles",
+    "title": "Social Media Marketing and Grouth",
     "instructor": "Gary Simon",
     "duration": "12 hours",
     "rating": 4.6,
     "level": "Intermediate",
-    "description": "Master the art of creating user-friendly interfaces and experiences using Figma and modern design tools.",
+    "description": "Learn how to leverage social media platforms to grow your brand and engage with your audience effectively.",
     "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1774677397/learning-education-ideas-insight-intelligence-study-concept_53876-120116_ttwxyz.avif",
     "category": "Design"
   },
@@ -85,6 +85,17 @@
     "level": "Beginner",
     "description": "Build a massive following on Instagram, TikTok, and LinkedIn with proven social media growth strategies.",
     "image": "https://res.cloudinary.com/dsga4gyw9/image/upload/v1773293471/thought-catalog-505eectW54k-unsplash_1_e9voce.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 8,
+    "title": "Brand Strategy & Marketing",
+    "instructor": "Neil Patel",
+    "duration": "36 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "learn how to develop and implement effective brand strategies for marketing success.",
+    "image": "https://res.cloudinary.com/doyduprsz/image/upload/v1778179144/marketing_img_zye9xb.png",
     "category": "Marketing"
   }
 ]

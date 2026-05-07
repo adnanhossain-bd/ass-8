@@ -8,10 +8,8 @@ const AllCoursesPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedLevel, setSelectedLevel] = useState("All");
 
-  // লেভেলের লিস্ট (ইউনিক ভ্যালু বের করা)
   const levels = ["All", "Beginner", "Intermediate", "Advanced"];
 
-  // 🔍 সার্চ এবং লেভেল ফিল্টারিং লজিক (একসাথে কাজ করবে)
   const filteredCourses = coursesData.filter((course) => {
     const matchesSearch = course.title.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesLevel = selectedLevel === "All" || course.level === selectedLevel;
@@ -36,7 +34,7 @@ const AllCoursesPage = () => {
         <div className="flex flex-col lg:flex-row gap-6 items-center justify-between bg-white p-6 rounded-2xl shadow-sm border border-gray-100 mb-12">
           
           {/* Search Input */}
-          <div className="relative w-full lg:max-w-md">
+          <div className="relative w-full lg:max-w-md text-amber-100 font-bold">
             <input
               type="text"
               placeholder="Search by title..."

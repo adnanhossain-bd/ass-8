@@ -73,18 +73,18 @@ const Footer = () => {
                 <span className="p-2 bg-secondary/15 text-secondary rounded-lg">
                   <FaPhoneAlt size={16} />
                 </span>
-                +880 1700 000000
+                +880 1700 494829
               </li>
               <li className="flex items-center gap-3">
                 <span className="p-2 bg-accent/15 text-accent rounded-lg">
                   <FaMapMarkerAlt size={16} />
                 </span>
-                Dhaka, Bangladesh
+                Rajshahi, Bangladesh
               </li>
             </ul>
           </div>
 
-          {/* Social Presence */}
+          
           <div>
             <h4 className="text-white font-bold mb-8 uppercase tracking-widest text-xs">
               Follow Us

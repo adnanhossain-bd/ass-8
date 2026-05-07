@@ -5,7 +5,7 @@ import { Rocket, ArrowUpRight } from "lucide-react";
 import coursesData from "@/data/courses.json";
 
 const TrendingCourses = () => {
-  // ডামি লজিক হিসেবে শেষ ৩টি কোর্সকে 'Trending' হিসেবে দেখাচ্ছি
+  
   const trending = coursesData.slice(-3);
 
   return (

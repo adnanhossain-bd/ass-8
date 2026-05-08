@@ -26,7 +26,7 @@ const AllCoursesPage = () => {
             Explore All <span className="text-primary">Courses</span>
           </h1>
           <p className="text-body max-w-xl mx-auto">
-            আপনার পছন্দের স্কিল শিখুন আমাদের এক্সপার্টদের তৈরি কোর্সগুলো থেকে।
+            আপনার পছন্দের স্কিল কে আরো ডেভেলপমেন্ট করুন আমাদের এক্সপার্টদের তৈরি কোর্সগুলো থেকে।
           </p>
         </div>
 

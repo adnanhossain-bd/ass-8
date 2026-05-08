@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-// React Icons থেকে আইকন ইমপোর্ট করা হচ্ছে
+
 import {
   FaFacebookF,
   FaTwitter,

@@ -86,12 +86,12 @@ const TopInstructors = () => {
               <div className="h-full bg-linear-to-br from-slate-900 to-slate-800 p-8 rounded-4xl flex flex-col items-center text-center shadow-2xl relative overflow-hidden">
                 <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors"></div>
 
-                {/* --- সংশোধিত অংশ: স্থির ইমেজ এবং ঘূর্ণায়মান বর্ডার --- */}
+                
                 <div className="relative mb-6">
-                  {/* এটি হলো ঘূর্ণায়মান বর্ডার ডিভ */}
+                
                   <div className="w-28 h-28 rounded-full bg-linear-to-tr from-primary via-secondary to-accent animate-spin-slow absolute inset-0"></div>
                   
-                  {/* এটি হলো মাঝখানের স্থির ইমেজ কন্টেইনার */}
+                  
                   <div className="relative w-28 h-28 rounded-full p-1 flex items-center justify-center overflow-hidden">
                     <div className="relative w-full h-full rounded-full bg-slate-900 overflow-hidden">
                       <Image
@@ -104,12 +104,12 @@ const TopInstructors = () => {
                     </div>
                   </div>
                   
-                  {/* অনলাইন স্ট্যাটাস ডট */}
+                 
                   <div className="absolute -bottom-1 -right-1 bg-emerald-500 p-1.5 rounded-full border-4 border-slate-900 shadow-lg z-10">
                     <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
                   </div>
                 </div>
-                {/* --- সংশোধন শেষ --- */}
+               
 
                 <h4 className="text-2xl font-bold text-white mb-1 group-hover:text-primary transition-colors">
                   {ins.name}

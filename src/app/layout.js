@@ -25,10 +25,15 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <Toaster position="top-center"/>
+      {/* ❌ আগে এখানে Toaster ছিল যা ভুল */}
       <body className="min-h-full flex flex-col">
+        {/* ✅ এখন Toaster বডির ভেতরে, এটাই সঠিক নিয়ম */}
+        <Toaster position="top-center"/> 
+        
         <Navbar></Navbar>
-        {children}
+        <main className="flex-grow">
+          {children}
+        </main>
         <Footer></Footer>
       </body>
     </html>
